@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mail" duration-ms="2238" started-at="2020-07-30T09:26:56Z" finished-at="2020-07-30T09:26:59Z">
+    <groups>
+    </groups>
+    <test name="发送邮件" duration-ms="2238" started-at="2020-07-30T09:26:56Z" finished-at="2020-07-30T09:26:59Z">
+      <class name="mail.testMail.Mail">
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:mail.testMail.Mail@523884b2]" name="sendMail" duration-ms="2178" started-at="2020-07-30T17:26:56Z" finished-at="2020-07-30T17:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+      </class> <!-- mail.testMail.Mail -->
+    </test> <!-- 发送邮件 -->
+  </suite> <!-- Mail -->
+</testng-results>

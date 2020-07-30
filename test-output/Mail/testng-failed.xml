@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Mail]" skipfailedinvocationcounts="true" parallel="classes">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="发送邮件">
+    <classes>
+      <class name="mail.testMail.Mail"/>
+    </classes>
+  </test> <!-- 发送邮件 -->
+</suite> <!-- Failed suite [Mail] -->
