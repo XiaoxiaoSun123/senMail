@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.798">
+           time="1.204">
   <properties />
   
   
-            <testcase name="sendMail" time="4.798" classname="mail.testMail.Mail" />
+            <testcase name="sendMail" time="1.204" classname="mail.testMail.Mail" />
       
 </testsuite>
