@@ -16,7 +16,7 @@ public class Mail {
 
   static int port = 25;
   static String server = "smtp.163.com";
-  static String from = "接口巡检报告";
+  static String from = "最近还好吗？";
   static String user = "hxm154@163.com";
   static String password = "VFYBXXSNOUBAQTME";//此处是pop密码
 
@@ -88,7 +88,7 @@ public class Mail {
     
 @Test
 public void sendMail() throws UnsupportedEncodingException{
-	Mail.sendEmailAttach("古诗词宝接口测试报告","报告请查看附件，有问题随时联系--胡晓明", "E:\\test_jmeter\\jmeter-jmx\\test_res\\plus_medplus-test-results.html");
+	Mail.sendEmailAttach("这是一封有情怀的邮件","请查看附件，有问题随时联系我哦~", "E:\\test_jmeter\\jmeter-jmx\\test_res\\plus_medplus-test-results.html");
 }
 //    public static void main(String[] args) throws IOException {
 ////            Mail.email_send("app","df df",);
