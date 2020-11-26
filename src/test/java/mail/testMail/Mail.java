@@ -13,12 +13,12 @@ import java.util.Date;
 import java.util.Properties;
 
 public class Mail {
-
+//#163邮箱
   static int port = 25;
-  static String server = "smtp.163.com";
-  static String from = "最近还好吗？";
-  static String user = "hxm154@163.com";
-  static String password = "VFYBXXSNOUBAQTME";//此处是pop密码
+  static String server = "smtp.sina.com";
+  static String from = "来自友助理的测试报告";
+  static String user = "hxm154@sina.com";
+  static String password = "3fdec3d38d9527ba";//此处是pop密码
 
   
     public static void sendEmailAttach(String subject, String body, String Attachpath) throws UnsupportedEncodingException {
