@@ -88,8 +88,8 @@ public class Mail {
     
 @Test
 public void sendMail() throws UnsupportedEncodingException{
-	Mail.sendEmailAttach("这是一封有情怀的邮件","请查看附件，有问题随时联系我哦~", "E:\\test_jmeter\\jmeter-jmx\\test_res\\plus_medplus-test-results.html");
-}
+	Mail.sendEmailAttach("这是一封有情怀的邮件","请查看附件，有问题随时联系我哦~", "E:\\yzl_jmeter\\jmeter-jmx\\test_res\\yzl-test-results.html");
+} 
 //    public static void main(String[] args) throws IOException {
 ////            Mail.email_send("app","df df",);
 //        Mail.sendEmailAttach("测试伐木累", "Hello EVBD",  "E:/test_jmeter/jmeter-jmx/test_res/plus_medplus-android-test-results.html");
