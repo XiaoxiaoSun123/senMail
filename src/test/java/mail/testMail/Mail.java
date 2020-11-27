@@ -16,7 +16,7 @@ public class Mail {
 //#163邮箱
   static int port = 25;
   static String server = "smtp.sina.com";
-  static String from = "来自友助理的测试报告";
+  static String from = "来自友助理的测试报告~~~";
   static String user = "hxm154@sina.com";
   static String password = "3fdec3d38d9527ba";//此处是pop密码
 
